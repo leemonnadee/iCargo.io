@@ -1,0 +1,201 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins,sans-serif;
+}
+
+.navbar {
+  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.container-fluid #icon_title {
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.container-fluid #icon_title span {
+  color: #FFA500;
+}
+
+.container-fluid .navbar-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincontainer {
+  font-family: Poppins,sans-serif;
+  height: 88vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincontainer .content {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  background-color: rgba(207, 208, 219, 0.2);
+}
+
+.maincontainer h1 {
+  color: #FFA500;
+}
+
+.maincontainer .box {
+  height: 400px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincontainer .box:nth-child(1) .im {
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  background-image: url(../images/cargo2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.maincontainer .box:nth-child(2) {
+  width: 400px;
+  background: #F5F6F8;
+  -webkit-box-shadow: -5px 5px 10px #e1e2e4, 5px -5px 10px #ffffff;
+          box-shadow: -5px 5px 10px #e1e2e4, 5px -5px 10px #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincontainer .box:nth-child(2) input {
+  border-radius: 5px;
+  height: 30px;
+  width: 90%;
+  padding: 2px;
+  border: 1px solid #c4c1c1;
+}
+
+.maincontainer .box:nth-child(2) form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincontainer .box:nth-child(2) hr {
+  width: 80%;
+}
+
+.maincontainer .box:nth-child(2) button {
+  width: 40%;
+  border: 1px solid #007ACC;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: transparent;
+  color: #007ACC;
+}
+
+.maincontainer .box:nth-child(2) button:hover {
+  border: 1px solid #007ACC;
+  border-radius: 5px;
+  font-size: 20px;
+  -webkit-transition: all ease-in-out 1s;
+  transition: all ease-in-out 1s;
+  background-color: #007ACC;
+  color: white;
+}
+
+.maincontainer .box:nth-child(2) h2 {
+  color: #007ACC;
+  font-weight: 500;
+  text-align: center;
+}
+
+.maincontainer .log_container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.maincontainer .toSignUp {
+  color: #007ACC;
+  cursor: pointer;
+}
+
+.sign_container {
+  display: none;
+}
+
+.sign_container .toSignIn {
+  color: #007ACC;
+  cursor: pointer;
+}
+
+.sign_container form {
+  gap: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .box:nth-child(1) {
+    display: none;
+  }
+}
+/*# sourceMappingURL=login.css.map */
