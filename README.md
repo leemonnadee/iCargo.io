@@ -1,2 +1,2 @@
 # iCargo.io
-Simple Draft Icargo web Design Task 
+Sample Draft Icargo web Design Task 
